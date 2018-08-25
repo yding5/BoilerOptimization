@@ -3,6 +3,18 @@
 % many time steps was used.
 % "0" is a special case as it denote it contain only control variables
 % without measured value of temperature and oxygen content.
+
+% Throttle openings: column 33-48
+% Coal feed rate: column 21-32
+% Left NOx, Right NOx: column 19-20
+% Left Oxy, Right Oxy: column 17-18
+% Temp: column 1-6
+% Temp difference: column 7-12
+% Avg. Temp: column 13
+% #1 Hot Wind: column 15
+% #1 Cold Wind: column 16
+% Generation load: column 14
+
 load FirstPart.txt
 load SecondPart.txt
 %% Training dataset
